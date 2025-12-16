@@ -1,0 +1,88 @@
+/* Navbar container */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 240px; /* sidebar width */
+  height: 100vh;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px 10px;
+  box-sizing: border-box;
+}
+
+/* Logo */
+.logo-container {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.logo {
+  width: 120px;
+}
+
+/* Nav items */
+.nav-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-item:hover,
+.nav-item.active {
+  background-color: #f0f0f0;
+}
+
+/* Nav icons */
+.nav-icon {
+  font-size: 18px;
+}
+
+/* More menu container */
+.more-wrapper {
+  position: relative;
+}
+
+/* More dropdown */
+.more-menu {
+  position: absolute;
+  top: -10px; /* Move it up slightly; adjust as needed */
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  z-index: 100;
+  width: 150px;
+  padding: 5px 0;
+}
+
+/* More items */
+.more-item {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.more-item:hover {
+  background-color: #f2f2f2;
+}
+
+/* Optional: make logout button red */
+.logout-btn {
+  color: red;
+}

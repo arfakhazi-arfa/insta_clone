@@ -1,0 +1,61 @@
+.profile-post-card {
+  position: relative;
+}
+
+.profile-post-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* Overlay */
+.profile-post-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.actions {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.caption {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.comments {
+  font-size: 13px;
+  max-height: 80px;
+  overflow-y: auto;
+}
+
+.add-comment {
+  display: flex;
+  margin-top: 6px;
+}
+
+.add-comment input {
+  flex: 1;
+  border: none;
+  padding: 5px;
+  outline: none;
+}
+
+.add-comment button {
+  border: none;
+  background: #0095f6;
+  color: white;
+  padding: 5px 8px;
+  cursor: pointer;
+}

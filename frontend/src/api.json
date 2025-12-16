@@ -1,0 +1,33 @@
+{
+  "BASE_URL": "http://localhost:8082/insta_clone",
+  "Auth": {
+    "register": "/backend/auth/register.php",
+    "login": "/backend/auth/login.php"
+  },
+  "Posts": {
+    "getAll": "/backend/posts/getall.php",
+    "getByUser": "/backend/posts/getbyuser.php",
+    "create": "/backend/posts/create.php",
+    "delete": "/backend/posts/delete.php"
+  },
+  "Stories": {
+    "getAll": "/backend/stories/getAll.php",
+    "getByUser": "/backend/stories/getByUser.php",
+    "create": "/backend/stories/create.php"
+  },
+  "Users": {
+    "getProfile": "/backend/users/getProfile.php",
+    "updateProfile": "/backend/users/updateProfile.php",
+    "follow": "/backend/users/follow.php",
+    "unfollow": "/backend/users/unfollow.php"
+  },
+  "Comments": {
+    "getByPost": "/backend/comments/getByPost.php",
+    "add": "/backend/comments/add.php",
+    "delete": "/backend/comments/delete.php"
+  },
+  "Likes": {
+    "add": "/backend/likes/add.php",
+    "remove": "/backend/likes/remove.php"
+  }
+}

@@ -1,0 +1,44 @@
+/* CREATE POST STYLING */
+.createpost-container {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.createpost-container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.createpost-container select,
+.createpost-container textarea,
+.createpost-container button {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.createpost-container button {
+  background: #0095f6;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.createpost-container button:hover {
+  background: #0073c6;
+}
+
+/* Centered feed wrapper (used on Home + CreatePost) */
+.feed-wrapper {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

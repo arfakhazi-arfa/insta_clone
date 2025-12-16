@@ -1,0 +1,106 @@
+/* Home Full Layout */
+.home-layout {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin-left: 240px; /* align with navbar width */
+  box-sizing: border-box;
+}
+
+/* Main content area (middle feed) */
+.home-main {
+  flex: 3; /* slightly bigger middle feed */
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* Posts section */
+.feed-area {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Right sidebar (suggestions) */
+.home-right {
+  flex: 1.2;        /* make sidebar slightly bigger */
+  max-width: 250px; /* wider sidebar */
+  position: sticky;
+  top: 100px;
+  height: fit-content;
+  flex-shrink: 0;
+  background-color: #f9f9f9;
+  padding-left: 15px;
+  border-left: 1px solid #ccc;
+}
+
+/* Right profile box */
+.right-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.right-profile img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Suggestion title */
+.suggest-title {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+/* Suggestion users container */
+.suggest-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.suggest-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.suggest-user img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Follow button */
+.suggest-user button {
+  border: none;
+  background: none;
+  color: #0095f6;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* Optional chat toggle button */
+.chat-toggle-btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 8px;
+  background-color: #0095f6;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
